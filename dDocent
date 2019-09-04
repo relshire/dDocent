@@ -16,7 +16,7 @@ echo -e "Contact jpuritz@uri.edu with any problems \n\n "
 ###Code to check for the required software for dDocent
 
 echo "Checking for required software"
-DEP=(freebayes mawk bwa samtools vcftools rainbow gnuplot seqtk cd-hit-est bamToBed bedtools parallel vcfcombine pearRM fastp)
+DEP=(freebayes mawk bwa samtools vcftools rainbow gnuplot seqtk cd-hit-est bamToBed bedtools parallel vcfcombine fastp)
 NUMDEP=0
 for i in "${DEP[@]}"
 do
